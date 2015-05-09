@@ -48,10 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\CameraFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
+     <Compile Include="Assets\Scripts\Network\Initializer.cs" />
      <Compile Include="Assets\Scripts\Player\AttachClothToPlayer.cs" />
      <Compile Include="Assets\Scripts\Player\Interaction.cs" />
      <Compile Include="Assets\Scripts\Player\InventoryManager.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\UI\UIControll.cs" />
      <Compile Include="Assets\Scripts\Player\WearClothes.cs" />
      <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick.xml" />

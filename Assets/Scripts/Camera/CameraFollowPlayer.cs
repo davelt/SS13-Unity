@@ -12,10 +12,12 @@ public class CameraFollowPlayer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		targetPos = transform.position;
+
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+		if (target == null)target = GameObject.FindWithTag("Player");
 		if (target)
 		{
 			Vector3 posNoZ = transform.position;

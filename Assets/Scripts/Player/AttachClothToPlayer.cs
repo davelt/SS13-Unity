@@ -9,17 +9,21 @@ public class AttachClothToPlayer : MonoBehaviour {
 	public Sprite movDown; 
 	private SpriteRenderer spriteRenderer;
 
+
+
 	// Use this for initialization
 	void Start () {
 		GameObject go = GameObject.Find("human_20");
 		playerMovement = (PlayerMovement) go.GetComponent(typeof(PlayerMovement));
 		spriteRenderer = GetComponent<SpriteRenderer>();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
+		changeClothDirection();
 
-
+	}
+	//changes facing direction of worn clothing item
+	void changeClothDirection(){
 		if (playerMovement.isFacing == "Right")
 			spriteRenderer.sprite = movRight;
 		else if (playerMovement.isFacing == "Up")
@@ -28,6 +32,5 @@ public class AttachClothToPlayer : MonoBehaviour {
 			spriteRenderer.sprite = movLeft;
 		else if (playerMovement.isFacing == "Down")
 			spriteRenderer.sprite = movDown;
-			
 	}
 }

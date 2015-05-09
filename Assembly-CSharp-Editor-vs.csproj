@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F980CF61-5DF8-CDE8-3DCA-F2007EE4E0C7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>F:/Programs/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>F:/Programs/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\X-UniTMX Examples\OtherExampleScenes\Scripts\Editor\ExamplesEditor.cs" />
+     <Compile Include="Assets\X-UniTMX\Editor\GUIHelpers.cs" />
+     <Compile Include="Assets\X-UniTMX\Editor\TiledMapComponentEditor.cs" />
+     <Compile Include="Assets\X-UniTMX\Editor\TiledMapObjectsWindow.cs" />
+     <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms1.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test1_tileset.txt" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick1.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\IsoDungeon.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\stress-test.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\stress-test2.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\RenderOrderTest\LeftTop.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\crypt.xml" />
+     <None Include="Assets\Resources\GameMaps\minimalist-collision.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test-Base64-gzip.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\gallery.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\Isometric\DifferentIsoTest02.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\Isometric\iso-test-objectgroup.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test5.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\IsoDungeon5.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test-CSV.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\mucus.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\ortho-rotation-test2.xml" />
+     <None Include="Assets\Resources\GameMaps\3DPlataformSceneInvColliders.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\hive.xml" />
+     <None Include="Assets\Resources\GameMaps\PlataformScene.xml" />
+     <None Include="Assets\X-UniTMX\ObjectTypesForTiled.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\Level1\brick4.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\rock.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick6.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test1.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\tunnel.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\readme.txt" />
+     <None Include="Assets\Resources\OtherMapsExamples\Isometric\iso-staggered-test.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick3.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\64x64.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\tileset_forTiled.txt" />
+     <None Include="Assets\Resources\OtherMapsExamples\ortho-tile-property.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test-Base64-zlib.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\ortho-rotation-test.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\Isometric\DifferentIsoTest01.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\Level1\StaggeredDungeon.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test4.xml" />
+     <None Include="Assets\Resources\GameMaps\SS13\test.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\IsoDungeon2.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\pandem1.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\lapis.xml" />
+     <None Include="Assets\test.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\IsoDungeon4.xml" />
+     <None Include="Assets\Resources\GameMaps\3DPlataformSceneMain.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\RenderOrderTest\RightTop.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\lair.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\Isometric\iso-test2.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick4.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\gehena.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\catacomb.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test_multipleLayers.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\ortho-objects.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\IsoDungeon3.xml" />
+     <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms2.xml" />
+     <None Include="Assets\Resources\GameMaps\Game2DPlataformerWithTiledCollision.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\moss.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\Isometric\Home.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\RenderOrderTest\LeftBottom.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test-tile_collisions.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick5.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test-Base64-uncompressed.xml" />
+     <None Include="Assets\Resources\GameMaps\Desert1.xml" />
+     <None Include="Assets\Resources\GameMaps\Desert2.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\cocutos.xml" />
+     <None Include="Assets\Resources\GameMaps\TileFlipTest.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\normal.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\RenderOrderTest\RightBottom.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test3.xml" />
+     <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick2.xml" />
+     <None Include="Assets\Resources\OtherMapsExamples\small_test_multiple_tilesets.xml" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/SS13/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>F:/Programs/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>F:/Programs/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zlib">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/SS13/Assets/X-UniTMX/Ionic.Zlib.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>F:/Programs/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>F:/Programs/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{71D7EB4D-48B8-82FD-EAD3-17B037587209}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

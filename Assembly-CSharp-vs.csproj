@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,63 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Camera\CameraFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Player\AttachClothToPlayer.cs" />
      <Compile Include="Assets\Scripts\Player\Interaction.cs" />
      <Compile Include="Assets\Scripts\Player\InventoryManager.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\WearClothes.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-3DPlataform\Scripts\ChangeProjectionCamera.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-Isometric\Scripts\Character2DIsometricController.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-Isometric\Scripts\IsometricGameController.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-Isometric\Scripts\IsometricTrigger2DLoadMap.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-Plataform\Scripts\CC2DTriggerHelper.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-Plataform\Scripts\CharacterController2D.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-Plataform\Scripts\NonPhysicsPlayerTester.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-Plataform\Scripts\PhysicsPlayerTester.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Camera\CameraFolow2D.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Character\Character2DController.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Character\RespawnPoint.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Enemies\Enemy2DAbstract.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Enemies\Enemy2DStay.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\UI\RefreshGUITextPlayerPrefs.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\ClearPlayerPrefs.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\NextLevelByKey.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\PermantDestroyPlayerPrefs.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\Trigger2DLoadMap.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\Trigger2DNextScene.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\Trigger2DRespawnSave.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\TriggerChangeObjects.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\TriggerCollision2DDestroy.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\GameScene-TopView\Scripts\Utils\TriggerShowObject.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\OtherExampleScenes\Scripts\BackButtonScript.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\OtherExampleScenes\Scripts\CameraController.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\OtherExampleScenes\Scripts\MapLoader.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\OtherExampleScenes\Scripts\MapLoaderStreamed.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\OtherExampleScenes\Scripts\MouseTestScript.cs" />
-     <Compile Include="Assets\X-UniTMX Examples\OtherExampleScenes\Scripts\StartingSceneScript.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\ImageLayer.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Layer.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Map.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\MapObject.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\MapObjectLayer.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Object.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Property.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\PropertyCollection.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Tile.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\TileAnimation.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\TileGrid.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\TileLayer.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\TileObject.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\TileSet.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\TiledMapComponent.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Utils\AnimatedSprite.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Utils\MathfExtensions.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Utils\SortingOrderAutoCalculator.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Utils\TaskManager.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Utils\Triangulator.cs" />
-     <Compile Include="Assets\X-UniTMX\Code\Utils\clipper.cs" />
-     <Compile Include="Assets\X-UniTMX\NanoXML\NanoXMLParser.cs" />
      <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test1_tileset.txt" />
@@ -126,7 +76,6 @@
      <None Include="Assets\Resources\GameMaps\3DPlataformSceneInvColliders.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\hive.xml" />
      <None Include="Assets\Resources\GameMaps\PlataformScene.xml" />
-     <None Include="Assets\X-UniTMX\ObjectTypesForTiled.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\Level1\brick4.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\rock.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick6.xml" />
@@ -178,9 +127,6 @@
      <None Include="Assets\Resources\OtherMapsExamples\small_test_multiple_tilesets.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/Programs/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Ionic.Zlib">
- <HintPath>C:/Users/Public/Documents/Unity Projects/SS13/Assets/X-UniTMX/Ionic.Zlib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>F:/Programs/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

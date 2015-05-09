@@ -9,7 +9,9 @@ public class InventoryManager : MonoBehaviour {
 	bool suitSlot;
 	bool leftHand;
 	bool rightHand;
-	List<GameObject> itemInInventory = new List<GameObject>(); 
+	List<GameObject> itemInInventory = new List<GameObject>();
+	GameObject inLeftHand;
+	GameObject inRightHand;
 	
 
 	// Use this for initialization
@@ -27,6 +29,9 @@ public class InventoryManager : MonoBehaviour {
 			RaycastHit2D hit = Physics2D.Raycast (Camera.main.ScreenToWorldPoint (Input.mousePosition), Vector2.zero);
 			if (hit.collider != null) {
 				if (hit.collider.gameObject.tag == "Object"){
+					if(!rightHand){
+						inRightHand = hit.collider.gameObject;
+					}
 					itemInInventory.Add(hit.collider.gameObject);
 					inventoryOccupied++;
 					Debug.Log (inventoryOccupied);

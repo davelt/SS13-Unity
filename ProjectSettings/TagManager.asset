@@ -12,6 +12,13 @@ TagManager:
   - Bullet
   - ExplosionFX
   - Object
+  - EnemyShoot
+  - HealDrunks_Red
+  - HealDrunks_Yellow
+  - HealDrunks_Green
+  - HealDrunks_Blue
+  - PlayerShoot
+  - UI
   layers:
   - Default
   - TransparentFX

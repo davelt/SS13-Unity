@@ -52,8 +52,9 @@
      <Compile Include="Assets\Scripts\Player\Interaction.cs" />
      <Compile Include="Assets\Scripts\Player\InventoryManager.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Player\UI\UIControll.cs" />
      <Compile Include="Assets\Scripts\Player\WearClothes.cs" />
+     <Compile Include="Assets\Scripts\UI\HandSlots.cs" />
+     <Compile Include="Assets\Scripts\UI\UIControll.cs" />
      <None Include="Assets\Resources\GameMaps\3DPlataformScenePlataforms1.xml" />
      <None Include="Assets\Resources\GameMaps\FoldersTest\rltiles-pack\brick.xml" />
      <None Include="Assets\Resources\OtherMapsExamples\orthogonal-test1_tileset.txt" />

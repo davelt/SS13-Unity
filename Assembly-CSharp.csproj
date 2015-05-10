@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\CameraFollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Network\Initializer.cs" />
      <Compile Include="Assets\Scripts\Player\AttachClothToPlayer.cs" />
      <Compile Include="Assets\Scripts\Player\Interaction.cs" />

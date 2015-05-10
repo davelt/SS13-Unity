@@ -16,8 +16,8 @@ public class PlayerMovement : MonoBehaviour
 	private float lastSynchronizationTime = 0f;
 	private float syncDelay = 0f;
 	private float syncTime = 0f;
-	private Vector3 syncStartPosition = Vector3.zero;
-	private Vector3 syncEndPosition = Vector3.zero;
+	private Vector2 syncStartPosition = Vector3.zero;
+	private Vector2 syncEndPosition = Vector3.zero;
 
 	private SpriteRenderer spriteRenderer;
 

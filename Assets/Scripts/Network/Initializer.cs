@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Initializer : MonoBehaviour {
 
-	private const string typeName = "UniqueGameName";
-	private const string gameName = "RoomName";
+	private const string typeName = "Test";
+	private const string gameName = "TESTER";
 	public GameObject playerPrefab;
 	private void StartServer()
 	{
@@ -62,6 +62,6 @@ public class Initializer : MonoBehaviour {
 	}
 	private void SpawnPlayer()
 	{
-		Network.Instantiate(playerPrefab, new Vector3(2.99f,-3.08f, 0), Quaternion.identity, 0);
+		Network.Instantiate(playerPrefab, new Vector2(2.99f,-3.08f), Quaternion.identity, 0);
 	}
 }

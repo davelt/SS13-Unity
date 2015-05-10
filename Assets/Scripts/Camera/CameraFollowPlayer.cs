@@ -12,7 +12,6 @@ public class CameraFollowPlayer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		targetPos = transform.position;
-
 	}
 	
 	// Update is called once per frame
